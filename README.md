@@ -7,10 +7,10 @@ Este repositorio contiene un archivo `docker-compose.yml` que configura un entor
 Asegúrese de tener Docker Compose instalado en su sistema Ubuntu. Si no lo tiene instalado, puede ejecutar el siguiente script para instalarlo:
 
 ```bash
-./install-docker-compose.sh
+./installation.sh
 ```
 
-Asegúrese de darle permisos de ejecución al script antes de ejecutarlo con `chmod +x install-docker-compose.sh`.
+Asegúrese de darle permisos de ejecución al script antes de ejecutarlo con `chmod +x installation.sh`.
 
 ## Ejecutar Docker Compose
 
