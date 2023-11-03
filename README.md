@@ -17,7 +17,7 @@ Asegúrese de darle permisos de ejecución al script antes de ejecutarlo con `ch
 Una vez que Docker Compose esté instalado, puede ejecutar el archivo `docker-compose.yml` de la siguiente manera:
 
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 Esto creará y ejecutará los contenedores de WordPress y MySQL en segundo plano.
@@ -31,7 +31,7 @@ Una vez que los contenedores estén en funcionamiento, puede acceder a WordPress
 Cuando ya no necesite los contenedores, puede detenerlos y eliminarlos con el siguiente comando:
 
 ```bash
-docker-compose down
+sudo docker-compose down
 ```
 
 Esto detendrá y eliminará los contenedores, pero mantendrá los datos persistentes almacenados en volúmenes Docker.
