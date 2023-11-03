@@ -7,4 +7,4 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Verifica la versión instalada
-docker-compose --version
+sudo docker-compose --version
